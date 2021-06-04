@@ -1,9 +1,9 @@
 window.onload = () => {
     
-    //calling a function calculateTip which will calculate the tip for the bill.
+    //Adding click event listener to call the calculate function
     document.querySelector('#calculate').onclick = calculateTip;
 
-    //calling the function resetPage which will reset the page.
+    //Adding click event listener to call the reset function 
     document.querySelector('#reset-button').onclick = resetPage;
 }
 
